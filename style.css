@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   border: solid 2px #8d86c9;
-  width: 96%;
+  width: 98%;
   margin-block: 0;
   margin: 4px auto;
   background-color: #f7ece1;
@@ -23,7 +23,7 @@ aside {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: left;
-  width: 35%;
+  width: 42%;
   max-width: 500px;
   min-width: 236px;
   background-color: #242038;
@@ -31,12 +31,12 @@ aside {
 
 aside h2 {
   color: #9067c6;
-  padding: 4px 0 4px 6%;
+  padding: 4px 0 4px 3%;
   background: #f7ece1;
-  border-top-right-radius: 24px;
-  border-bottom-right-radius: 24px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   display: block;
-  margin-right: 30%;
+  margin-right: 28%;
 }
 
 aside .img {
@@ -52,6 +52,33 @@ aside .img--container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+aside .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 76%;
+  height: 140px;
+  margin: 0 auto;
+  border: 2px solid #9067c6;
+  border-radius: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+aside .contact--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  max-width: 180px;
 }
 
 aside .skills {
@@ -73,17 +100,22 @@ aside .skills--list {
 
 aside .skills label {
   display: block;
-  min-width: 30px;
-  overflow: hidden;
-  margin-left: 16px;
+  width: 80%;
+  margin-left: 1%;
 }
 
 aside .skills .progress {
   border: none;
-  width: 140px;
+  width: 100%;
   height: 24px;
   background-color: #cac4ce;
   border-radius: 2px;
+}
+
+aside .skills .progress--4 {
+  height: 24px;
+  width: 50%;
+  background-color: #9067c6;
 }
 
 aside .skills .progress--6 {
@@ -120,7 +152,7 @@ li {
 
 main {
   margin-block: 0;
-  width: 65%;
+  width: 58%;
   background: #f7ece1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,11 +176,13 @@ main h2 {
   background: -webkit-gradient(linear, left top, right top, from(#242038), to(#8d86c9));
   background: linear-gradient(to right, #242038, #8d86c9);
   margin: 0 42% 0 0;
+  min-width: 235px;
 }
 
 .transition {
+  min-width: 248px;
   z-index: 1;
-  width: 58%;
+  margin: 0 42% 0 0;
   height: 32px;
   background: -webkit-gradient(linear, left top, right top, from(#9067c6), to(#8d86c9));
   background: linear-gradient(to right, #9067c6, #8d86c9);
