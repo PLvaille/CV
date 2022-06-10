@@ -1,15 +1,18 @@
 $dark-main: #242038;
-$purple2 : #9067c6;
-$purple1 : #8d86c9;
-$pastel : #cac4ce;
+$purple2 : #73519e;
+$purple1 : #6d67a5;
+$pastel : #b7acc0;
 $cream : #f7ece1;
-
+// $purple2 : #9067c6;
+// $purple1 : #8d86c9;
+// $pastel : #cac4ce;
+// $cream : #f7ece1;
 
 
 body {
     font-family: 'Roboto', sans-serif;
     border: solid 2px $purple1;
-    width: 98%;
+    width: 99%;
     margin-block: 0;
     margin: 4px auto;
     background-color: $cream;
@@ -23,7 +26,7 @@ aside {
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-    width: 42%;
+    width: 50%;
     max-width: 500px;
     min-width: 236px;
     background-color: $dark-main;
@@ -36,13 +39,14 @@ aside {
         border-bottom-right-radius: 8px;
         display: block;
         margin-right: 28%;
-        
+        margin-top: 0;
+
     }
 
     & .img {
         border: 3px solid $purple2;
         margin: 0 auto;
-        width: 50%;
+        width: 40%;
         border-radius: 50%;
         margin-top: 24px;
         margin-bottom: 24px;
@@ -57,7 +61,7 @@ aside {
         flex-direction: column;
         justify-content: space-around;
         width: 76%;
-        height: 140px;
+        height: 100px;
         margin: 0 auto;
         border: 2px solid $purple2;
         border-radius: 8px;
@@ -85,7 +89,7 @@ aside {
 
         & label {
             display: block;
-            width:80%;
+            width: 80%;
             margin-left: 1%;
         }
 
@@ -96,42 +100,25 @@ aside {
             background-color: $pastel;
             border-radius: 2px;
 
-            &--4 {
-                height: 24px;
-                width: 50%;
-                background-color: $purple2;
-
+            //chaque progress--i   
+            @for $i from 1 through 10 {
+                &--#{$i} {
+                    height: 24px;
+                    background-color: $purple2;
+                    width: 1%* (10*$i);
+                }
             }
-
-            &--6 {
-                height: 24px;
-                width: 60%;
-                background-color: $purple2;
-            }
-
-            &--7 {
-                height: 24px;
-                width: 70%;
-                background-color: $purple2;
-            }
-
-            &--8 {
-                height: 24px;
-                width: 80%;
-                background-color: $purple2;
-            }
-
-            &--9 {
-                height: 24px;
-                width: 90%;
-                background-color: $purple2;
-            }
-
-
-
         }
     }
 
+}
+
+#mysqlLabel {
+    display : flex;
+    & img {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 ul {
@@ -145,7 +132,6 @@ li {
 
 main {
     margin-block: 0;
-    width: 58%;
     background: $cream;
     display: flex;
     flex-direction: column;
@@ -161,18 +147,18 @@ main {
         padding: 4px 0 4px 4%;
         color: $cream;
         background: linear-gradient(to right, $dark-main, $purple1);
-        margin: 0 42% 0 0;
-        min-width:235px;
-        
+        margin: 0 25% 0 0;
+        min-width: 235px;
+
     }
 
 
 }
 
 .transition {
-    min-width:248px;
+    min-width: 248px;
     z-index: 1;
-    margin: 0 42% 0 0;
+    margin: 0 25% 0 0;
     height: 32px;
     background: linear-gradient(to right, $purple2, $purple1);
     border-top-right-radius: 16px;

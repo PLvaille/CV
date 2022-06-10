@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  border: solid 2px #8d86c9;
-  width: 98%;
+  border: solid 2px #6d67a5;
+  width: 99%;
   margin-block: 0;
   margin: 4px auto;
   background-color: #f7ece1;
@@ -23,26 +23,27 @@ aside {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: left;
-  width: 42%;
+  width: 50%;
   max-width: 500px;
   min-width: 236px;
   background-color: #242038;
 }
 
 aside h2 {
-  color: #9067c6;
+  color: #73519e;
   padding: 4px 0 4px 3%;
   background: #f7ece1;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   display: block;
   margin-right: 28%;
+  margin-top: 0;
 }
 
 aside .img {
-  border: 3px solid #9067c6;
+  border: 3px solid #73519e;
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
   border-radius: 50%;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -65,9 +66,9 @@ aside .contact {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 76%;
-  height: 140px;
+  height: 100px;
   margin: 0 auto;
-  border: 2px solid #9067c6;
+  border: 2px solid #73519e;
   border-radius: 8px;
   padding: 8px;
   overflow: hidden;
@@ -108,38 +109,79 @@ aside .skills .progress {
   border: none;
   width: 100%;
   height: 24px;
-  background-color: #cac4ce;
+  background-color: #b7acc0;
   border-radius: 2px;
+}
+
+aside .skills .progress--1 {
+  height: 24px;
+  background-color: #73519e;
+  width: 10%;
+}
+
+aside .skills .progress--2 {
+  height: 24px;
+  background-color: #73519e;
+  width: 20%;
+}
+
+aside .skills .progress--3 {
+  height: 24px;
+  background-color: #73519e;
+  width: 30%;
 }
 
 aside .skills .progress--4 {
   height: 24px;
+  background-color: #73519e;
+  width: 40%;
+}
+
+aside .skills .progress--5 {
+  height: 24px;
+  background-color: #73519e;
   width: 50%;
-  background-color: #9067c6;
 }
 
 aside .skills .progress--6 {
   height: 24px;
+  background-color: #73519e;
   width: 60%;
-  background-color: #9067c6;
 }
 
 aside .skills .progress--7 {
   height: 24px;
+  background-color: #73519e;
   width: 70%;
-  background-color: #9067c6;
 }
 
 aside .skills .progress--8 {
   height: 24px;
+  background-color: #73519e;
   width: 80%;
-  background-color: #9067c6;
 }
 
 aside .skills .progress--9 {
   height: 24px;
+  background-color: #73519e;
   width: 90%;
-  background-color: #9067c6;
+}
+
+aside .skills .progress--10 {
+  height: 24px;
+  background-color: #73519e;
+  width: 100%;
+}
+
+#mysqlLabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#mysqlLabel img {
+  width: 16px;
+  height: 16px;
 }
 
 ul {
@@ -152,7 +194,6 @@ li {
 
 main {
   margin-block: 0;
-  width: 58%;
   background: #f7ece1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,19 +214,19 @@ main h2 {
   z-index: 999;
   padding: 4px 0 4px 4%;
   color: #f7ece1;
-  background: -webkit-gradient(linear, left top, right top, from(#242038), to(#8d86c9));
-  background: linear-gradient(to right, #242038, #8d86c9);
-  margin: 0 42% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#242038), to(#6d67a5));
+  background: linear-gradient(to right, #242038, #6d67a5);
+  margin: 0 25% 0 0;
   min-width: 235px;
 }
 
 .transition {
   min-width: 248px;
   z-index: 1;
-  margin: 0 42% 0 0;
+  margin: 0 25% 0 0;
   height: 32px;
-  background: -webkit-gradient(linear, left top, right top, from(#9067c6), to(#8d86c9));
-  background: linear-gradient(to right, #9067c6, #8d86c9);
+  background: -webkit-gradient(linear, left top, right top, from(#73519e), to(#6d67a5));
+  background: linear-gradient(to right, #73519e, #6d67a5);
   border-top-right-radius: 16px;
 }
 
@@ -212,8 +253,8 @@ main h2 {
 }
 
 .presentation #poste {
-  background: -webkit-gradient(linear, right top, left top, from(#242038), color-stop(#8d86c9), color-stop(#8d86c9), to(#242038));
-  background: linear-gradient(to left, #242038, #8d86c9, #8d86c9, #242038);
+  background: -webkit-gradient(linear, right top, left top, from(#242038), color-stop(#6d67a5), color-stop(#6d67a5), to(#242038));
+  background: linear-gradient(to left, #242038, #6d67a5, #6d67a5, #242038);
   margin-right: 42%;
 }
 /*# sourceMappingURL=style.css.map */
