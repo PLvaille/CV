@@ -20,8 +20,9 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: left;
   width: 50%;
   max-width: 500px;
@@ -43,13 +44,12 @@ aside h2 {
 aside .img {
   border: 3px solid #dbd5ce;
   margin: 0 auto;
+  margin-top: 8px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  margin-top: 24px;
-  margin-bottom: 24px;
   -webkit-filter: brightness(1.8);
           filter: brightness(1.8);
 }
@@ -71,9 +71,9 @@ aside .contact {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 76%;
-  height: 100px;
+  height: 80px;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   border: 2px solid #dbd5ce;
   border-radius: 8px;
   padding: 8px;
@@ -121,61 +121,61 @@ aside .skills .progress {
 
 aside .skills .progress--1 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 10%;
 }
 
 aside .skills .progress--2 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 20%;
 }
 
 aside .skills .progress--3 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 30%;
 }
 
 aside .skills .progress--4 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 40%;
 }
 
 aside .skills .progress--5 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 50%;
 }
 
 aside .skills .progress--6 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 60%;
 }
 
 aside .skills .progress--7 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 70%;
 }
 
 aside .skills .progress--8 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 80%;
 }
 
 aside .skills .progress--9 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 90%;
 }
 
 aside .skills .progress--10 {
   height: 24px;
-  background-color: #D8737F;
+  background-color: #AB6C82;
   width: 100%;
 }
 
@@ -247,7 +247,7 @@ main h2 {
   padding-left: 4%;
   color: #dbd5ce;
   background-color: #475C7A;
-  padding-bottom: 7%;
+  padding-bottom: 3%;
 }
 
 .presentation span {
