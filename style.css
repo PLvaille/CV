@@ -1,10 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
-  border: solid 2px #6d67a5;
-  width: 99%;
+  border: solid 2px #AB6C82;
+  width: 860px;
   margin-block: 0;
   margin: 4px auto;
-  background-color: #f7ece1;
+  background-color: #dbd5ce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +12,7 @@ body {
 
 aside {
   margin: 0;
-  color: #f7ece1;
+  color: #dbd5ce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,13 +26,13 @@ aside {
   width: 50%;
   max-width: 500px;
   min-width: 236px;
-  background-color: #242038;
+  background-color: #475C7A;
 }
 
 aside h2 {
-  color: #73519e;
+  color: #685D79;
   padding: 4px 0 4px 3%;
-  background: #f7ece1;
+  background: #dbd5ce;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   display: block;
@@ -41,12 +41,17 @@ aside h2 {
 }
 
 aside .img {
-  border: 3px solid #73519e;
+  border: 3px solid #dbd5ce;
   margin: 0 auto;
-  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin-top: 24px;
   margin-bottom: 24px;
+  -webkit-filter: brightness(1.8);
+          filter: brightness(1.8);
 }
 
 aside .img--container {
@@ -68,7 +73,8 @@ aside .contact {
   width: 76%;
   height: 100px;
   margin: 0 auto;
-  border: 2px solid #73519e;
+  margin-bottom: 16px;
+  border: 2px solid #dbd5ce;
   border-radius: 8px;
   padding: 8px;
   overflow: hidden;
@@ -109,67 +115,67 @@ aside .skills .progress {
   border: none;
   width: 100%;
   height: 24px;
-  background-color: #b7acc0;
+  background-color: #dbd5ce;
   border-radius: 2px;
 }
 
 aside .skills .progress--1 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 10%;
 }
 
 aside .skills .progress--2 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 20%;
 }
 
 aside .skills .progress--3 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 30%;
 }
 
 aside .skills .progress--4 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 40%;
 }
 
 aside .skills .progress--5 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 50%;
 }
 
 aside .skills .progress--6 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 60%;
 }
 
 aside .skills .progress--7 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 70%;
 }
 
 aside .skills .progress--8 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 80%;
 }
 
 aside .skills .progress--9 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 90%;
 }
 
 aside .skills .progress--10 {
   height: 24px;
-  background-color: #73519e;
+  background-color: #D8737F;
   width: 100%;
 }
 
@@ -194,7 +200,7 @@ li {
 
 main {
   margin-block: 0;
-  background: #f7ece1;
+  background: #dbd5ce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,9 +208,11 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
 }
 
 main h1 {
+  margin-top: 16px;
   font-weight: bold;
 }
 
@@ -213,9 +221,9 @@ main h2 {
   top: -16px;
   z-index: 999;
   padding: 4px 0 4px 4%;
-  color: #f7ece1;
-  background: -webkit-gradient(linear, left top, right top, from(#242038), to(#6d67a5));
-  background: linear-gradient(to right, #242038, #6d67a5);
+  color: #dbd5ce;
+  background: -webkit-gradient(linear, left top, right top, from(#475C7A), to(#AB6C82));
+  background: linear-gradient(to right, #475C7A, #AB6C82);
   margin: 0 25% 0 0;
   min-width: 235px;
 }
@@ -225,8 +233,8 @@ main h2 {
   z-index: 1;
   margin: 0 25% 0 0;
   height: 32px;
-  background: -webkit-gradient(linear, left top, right top, from(#73519e), to(#6d67a5));
-  background: linear-gradient(to right, #73519e, #6d67a5);
+  background: -webkit-gradient(linear, left top, right top, from(#685D79), to(#AB6C82));
+  background: linear-gradient(to right, #685D79, #AB6C82);
   border-top-right-radius: 16px;
 }
 
@@ -237,8 +245,8 @@ main h2 {
 
 .presentation {
   padding-left: 4%;
-  color: #f7ece1;
-  background-color: #242038;
+  color: #dbd5ce;
+  background-color: #475C7A;
   padding-bottom: 7%;
 }
 
@@ -253,8 +261,8 @@ main h2 {
 }
 
 .presentation #poste {
-  background: -webkit-gradient(linear, right top, left top, from(#242038), color-stop(#6d67a5), color-stop(#6d67a5), to(#242038));
-  background: linear-gradient(to left, #242038, #6d67a5, #6d67a5, #242038);
+  background: -webkit-gradient(linear, right top, left top, from(#475C7A), color-stop(#AB6C82), color-stop(#AB6C82), to(#475C7A));
+  background: linear-gradient(to left, #475C7A, #AB6C82, #AB6C82, #475C7A);
   margin-right: 42%;
 }
 /*# sourceMappingURL=style.css.map */
